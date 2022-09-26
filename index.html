@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- // bootstrab // -->
-    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- //animate.css -->
     <link rel="stylesheet" href="css/animate.css">
     <!-- // fontawesome // -->
     <!-- // css // -->
@@ -16,9 +20,46 @@
 </head>
 <body>
     <!-- ________________ // header // ________________ -->
-    <header></header>
+    <header>
+        <div class="project-nav py-20 p_ab">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <ul class="project_ul d-flex ">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="#ourStory">قصتنا</a></li>
+                        <li><a href="#subscripetion">الأشتراكات</a></li>
+                        <li><a href="#menu">المنيو</a></li>
+                        <li><a href="#theShop">المتجر</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                    <a href="#" class="d-flex align-items-center black-color " >
+                        <div class="i_user rad-50"><i class="fa-solid fa-user wh-color"></i></div>
+                        <p>تسجيل الدخول</p>
+                    </a>
+                    <div class="burger-icon">
+                        <div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <!-- _____________ // body-content // _____________ -->
-    <div class="body-content"></div>
+    <div class="body-content">
+        <div class="help d-flex justify-content-center align-items-center p_rv">
+            <img src="imgs/NoPath.png" class="panner">
+                <div class="help-content text-center d-flex flex-column align-items-center">
+                        <img class="help_img pb-10" src="imgs/logo.png" >
+                        <h4 class=" pb-10">الديناصور النباتي </h4>
+                        <h6 class=" pb-10"> دعنا نساعدك في نظامك الصحي  </h6>
+                        <a href="" class="mainBtn d-block">انضم لنا </a>
+                </div>
+        </div>
+
+    </div>
     <!-- ________________ // footer // ________________ -->
     <footer></footer>
     <!-- ________________ // loader // ________________ -->
@@ -33,5 +74,6 @@
     <script src="js/wow.min.js"></script>
     <!-- // main-script //  -->
     <script src="js/script.js"></script>
+   
 </body>
 </html>
